@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,11 @@
 		24B447AC26FAE8D200B4291E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B447AA26FAE8D200B4291E /* LaunchScreen.storyboard */; };
 		24B447B726FAE8D200B4291E /* iOS_LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B447B626FAE8D200B4291E /* iOS_LocalizationTests.swift */; };
 		24B447C226FAE8D300B4291E /* iOS_LocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B447C126FAE8D300B4291E /* iOS_LocalizationUITests.swift */; };
+		24B447EE26FAEEBD00B4291E /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B447EC26FAEEBD00B4291E /* LanguageManager.swift */; };
+		24B447EF26FAEEBD00B4291E /* LanguagePack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B447ED26FAEEBD00B4291E /* LanguagePack.swift */; };
+		24B447F426FAEEDB00B4291E /* LanguagePack.json in Resources */ = {isa = PBXBuildFile; fileRef = 24B447F326FAEEDB00B4291E /* LanguagePack.json */; };
+		24B447FA26FAF33100B4291E /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B447F926FAF33100B4291E /* String-Extension.swift */; };
+		24B4480226FAF34800B4291E /* Encodable-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B4480126FAF34800B4291E /* Encodable-Extension.swift */; };
 		7F0C6FE42241F62D086EF2F3 /* Pods_iOS_Localization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273F1AEA51F27756A13F8C62 /* Pods_iOS_Localization.framework */; };
 		CDACDBDDF5E83F435EC7535E /* Pods_iOS_Localization_iOS_LocalizationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5466709B770A4228EF57AE5C /* Pods_iOS_Localization_iOS_LocalizationUITests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +57,11 @@
 		24B447BD26FAE8D300B4291E /* iOS-LocalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LocalizationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B447C126FAE8D300B4291E /* iOS_LocalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LocalizationUITests.swift; sourceTree = "<group>"; };
 		24B447C326FAE8D300B4291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B447EC26FAEEBD00B4291E /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		24B447ED26FAEEBD00B4291E /* LanguagePack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguagePack.swift; sourceTree = "<group>"; };
+		24B447F326FAEEDB00B4291E /* LanguagePack.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LanguagePack.json; sourceTree = "<group>"; };
+		24B447F926FAF33100B4291E /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		24B4480126FAF34800B4291E /* Encodable-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable-Extension.swift"; sourceTree = "<group>"; };
 		273F1AEA51F27756A13F8C62 /* Pods_iOS_Localization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Localization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5466709B770A4228EF57AE5C /* Pods_iOS_Localization_iOS_LocalizationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Localization_iOS_LocalizationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FA06F9CCAB79ED88A4FD2A /* Pods-iOS-LocalizationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LocalizationTests.release.xcconfig"; path = "Target Support Files/Pods-iOS-LocalizationTests/Pods-iOS-LocalizationTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +126,8 @@
 		24B4479E26FAE8CD00B4291E /* iOS-Localization */ = {
 			isa = PBXGroup;
 			children = (
+				24B447F826FAF30D00B4291E /* extension */,
+				24B447EB26FAEEBD00B4291E /* Utility */,
 				24B4479F26FAE8CD00B4291E /* AppDelegate.swift */,
 				24B447A126FAE8CD00B4291E /* SceneDelegate.swift */,
 				24B447A326FAE8CD00B4291E /* ViewController.swift */,
@@ -145,6 +157,25 @@
 			path = "iOS-LocalizationUITests";
 			sourceTree = "<group>";
 		};
+		24B447EB26FAEEBD00B4291E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				24B447F326FAEEDB00B4291E /* LanguagePack.json */,
+				24B447EC26FAEEBD00B4291E /* LanguageManager.swift */,
+				24B447ED26FAEEBD00B4291E /* LanguagePack.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		24B447F826FAF30D00B4291E /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				24B447F926FAF33100B4291E /* String-Extension.swift */,
+				24B4480126FAF34800B4291E /* Encodable-Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		DF2BEF76C3811E18888DC135 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +186,6 @@
 				DC3FF900DB0E8EAABCFB076B /* Pods-iOS-LocalizationTests.debug.xcconfig */,
 				56FA06F9CCAB79ED88A4FD2A /* Pods-iOS-LocalizationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -277,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B447F426FAEEDB00B4291E /* LanguagePack.json in Resources */,
 				24B447AC26FAE8D200B4291E /* LaunchScreen.storyboard in Resources */,
 				24B447A926FAE8D200B4291E /* Assets.xcassets in Resources */,
 				24B447A726FAE8CD00B4291E /* Main.storyboard in Resources */,
@@ -409,7 +440,11 @@
 			files = (
 				24B447A426FAE8CD00B4291E /* ViewController.swift in Sources */,
 				24B447A026FAE8CD00B4291E /* AppDelegate.swift in Sources */,
+				24B447FA26FAF33100B4291E /* String-Extension.swift in Sources */,
 				24B447A226FAE8CD00B4291E /* SceneDelegate.swift in Sources */,
+				24B447EF26FAEEBD00B4291E /* LanguagePack.swift in Sources */,
+				24B447EE26FAEEBD00B4291E /* LanguageManager.swift in Sources */,
+				24B4480226FAF34800B4291E /* Encodable-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

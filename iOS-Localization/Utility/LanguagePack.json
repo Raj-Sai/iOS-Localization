@@ -1,0 +1,12 @@
+{
+    "content": {
+        "en": {
+            "Hello_world": "Hello World",
+            "language_button_title": "Change Language"
+        },
+        "ta": {
+            "Hello_world": "வணக்கம் உலகம்",
+            "language_button_title": "மொழியை மாற்று"
+        }
+    }
+}

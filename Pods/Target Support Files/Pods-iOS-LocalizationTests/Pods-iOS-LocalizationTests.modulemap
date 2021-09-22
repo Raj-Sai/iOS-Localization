@@ -1,0 +1,6 @@
+framework module Pods_iOS_LocalizationTests {
+  umbrella header "Pods-iOS-LocalizationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

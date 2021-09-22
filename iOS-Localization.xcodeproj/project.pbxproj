@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F982841B223EE3DA9A0A52E /* Pods_iOS_LocalizationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF494F53C0D181A4CCE546DA /* Pods_iOS_LocalizationTests.framework */; };
+		24B447A026FAE8CD00B4291E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B4479F26FAE8CD00B4291E /* AppDelegate.swift */; };
+		24B447A226FAE8CD00B4291E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B447A126FAE8CD00B4291E /* SceneDelegate.swift */; };
+		24B447A426FAE8CD00B4291E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B447A326FAE8CD00B4291E /* ViewController.swift */; };
+		24B447A726FAE8CD00B4291E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B447A526FAE8CD00B4291E /* Main.storyboard */; };
+		24B447A926FAE8D200B4291E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B447A826FAE8D200B4291E /* Assets.xcassets */; };
+		24B447AC26FAE8D200B4291E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B447AA26FAE8D200B4291E /* LaunchScreen.storyboard */; };
+		24B447B726FAE8D200B4291E /* iOS_LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B447B626FAE8D200B4291E /* iOS_LocalizationTests.swift */; };
+		24B447C226FAE8D300B4291E /* iOS_LocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B447C126FAE8D300B4291E /* iOS_LocalizationUITests.swift */; };
+		7F0C6FE42241F62D086EF2F3 /* Pods_iOS_Localization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273F1AEA51F27756A13F8C62 /* Pods_iOS_Localization.framework */; };
+		CDACDBDDF5E83F435EC7535E /* Pods_iOS_Localization_iOS_LocalizationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5466709B770A4228EF57AE5C /* Pods_iOS_Localization_iOS_LocalizationUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24B447B326FAE8D200B4291E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B4479426FAE8CD00B4291E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B4479B26FAE8CD00B4291E;
+			remoteInfo = "iOS-Localization";
+		};
+		24B447BE26FAE8D300B4291E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B4479426FAE8CD00B4291E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B4479B26FAE8CD00B4291E;
+			remoteInfo = "iOS-Localization";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24B4479C26FAE8CD00B4291E /* iOS-Localization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Localization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B4479F26FAE8CD00B4291E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24B447A126FAE8CD00B4291E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24B447A326FAE8CD00B4291E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24B447A626FAE8CD00B4291E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24B447A826FAE8D200B4291E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24B447AB26FAE8D200B4291E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24B447AD26FAE8D200B4291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B447B226FAE8D200B4291E /* iOS-LocalizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LocalizationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B447B626FAE8D200B4291E /* iOS_LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LocalizationTests.swift; sourceTree = "<group>"; };
+		24B447B826FAE8D200B4291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B447BD26FAE8D300B4291E /* iOS-LocalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LocalizationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B447C126FAE8D300B4291E /* iOS_LocalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LocalizationUITests.swift; sourceTree = "<group>"; };
+		24B447C326FAE8D300B4291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273F1AEA51F27756A13F8C62 /* Pods_iOS_Localization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Localization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5466709B770A4228EF57AE5C /* Pods_iOS_Localization_iOS_LocalizationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Localization_iOS_LocalizationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FA06F9CCAB79ED88A4FD2A /* Pods-iOS-LocalizationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LocalizationTests.release.xcconfig"; path = "Target Support Files/Pods-iOS-LocalizationTests/Pods-iOS-LocalizationTests.release.xcconfig"; sourceTree = "<group>"; };
+		8449D83293C1626C974DF03F /* Pods-iOS-Localization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Localization.release.xcconfig"; path = "Target Support Files/Pods-iOS-Localization/Pods-iOS-Localization.release.xcconfig"; sourceTree = "<group>"; };
+		A3D072BC5D4D6D906DF1E44B /* Pods-iOS-Localization-iOS-LocalizationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Localization-iOS-LocalizationUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Localization-iOS-LocalizationUITests/Pods-iOS-Localization-iOS-LocalizationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D37BB1CB8C3E4F4B9041856A /* Pods-iOS-Localization-iOS-LocalizationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Localization-iOS-LocalizationUITests.release.xcconfig"; path = "Target Support Files/Pods-iOS-Localization-iOS-LocalizationUITests/Pods-iOS-Localization-iOS-LocalizationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC3FF900DB0E8EAABCFB076B /* Pods-iOS-LocalizationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LocalizationTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-LocalizationTests/Pods-iOS-LocalizationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC9259E0A67665095E85A87E /* Pods-iOS-Localization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Localization.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Localization/Pods-iOS-Localization.debug.xcconfig"; sourceTree = "<group>"; };
+		EF494F53C0D181A4CCE546DA /* Pods_iOS_LocalizationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_LocalizationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24B4479926FAE8CD00B4291E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0C6FE42241F62D086EF2F3 /* Pods_iOS_Localization.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B447AF26FAE8D200B4291E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F982841B223EE3DA9A0A52E /* Pods_iOS_LocalizationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B447BA26FAE8D300B4291E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDACDBDDF5E83F435EC7535E /* Pods_iOS_Localization_iOS_LocalizationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B4479326FAE8CD00B4291E = {
+			isa = PBXGroup;
+			children = (
+				24B4479E26FAE8CD00B4291E /* iOS-Localization */,
+				24B447B526FAE8D200B4291E /* iOS-LocalizationTests */,
+				24B447C026FAE8D300B4291E /* iOS-LocalizationUITests */,
+				24B4479D26FAE8CD00B4291E /* Products */,
+				DF2BEF76C3811E18888DC135 /* Pods */,
+				E63940EF545B43CA94145AC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24B4479D26FAE8CD00B4291E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24B4479C26FAE8CD00B4291E /* iOS-Localization.app */,
+				24B447B226FAE8D200B4291E /* iOS-LocalizationTests.xctest */,
+				24B447BD26FAE8D300B4291E /* iOS-LocalizationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24B4479E26FAE8CD00B4291E /* iOS-Localization */ = {
+			isa = PBXGroup;
+			children = (
+				24B4479F26FAE8CD00B4291E /* AppDelegate.swift */,
+				24B447A126FAE8CD00B4291E /* SceneDelegate.swift */,
+				24B447A326FAE8CD00B4291E /* ViewController.swift */,
+				24B447A526FAE8CD00B4291E /* Main.storyboard */,
+				24B447A826FAE8D200B4291E /* Assets.xcassets */,
+				24B447AA26FAE8D200B4291E /* LaunchScreen.storyboard */,
+				24B447AD26FAE8D200B4291E /* Info.plist */,
+			);
+			path = "iOS-Localization";
+			sourceTree = "<group>";
+		};
+		24B447B526FAE8D200B4291E /* iOS-LocalizationTests */ = {
+			isa = PBXGroup;
+			children = (
+				24B447B626FAE8D200B4291E /* iOS_LocalizationTests.swift */,
+				24B447B826FAE8D200B4291E /* Info.plist */,
+			);
+			path = "iOS-LocalizationTests";
+			sourceTree = "<group>";
+		};
+		24B447C026FAE8D300B4291E /* iOS-LocalizationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24B447C126FAE8D300B4291E /* iOS_LocalizationUITests.swift */,
+				24B447C326FAE8D300B4291E /* Info.plist */,
+			);
+			path = "iOS-LocalizationUITests";
+			sourceTree = "<group>";
+		};
+		DF2BEF76C3811E18888DC135 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC9259E0A67665095E85A87E /* Pods-iOS-Localization.debug.xcconfig */,
+				8449D83293C1626C974DF03F /* Pods-iOS-Localization.release.xcconfig */,
+				A3D072BC5D4D6D906DF1E44B /* Pods-iOS-Localization-iOS-LocalizationUITests.debug.xcconfig */,
+				D37BB1CB8C3E4F4B9041856A /* Pods-iOS-Localization-iOS-LocalizationUITests.release.xcconfig */,
+				DC3FF900DB0E8EAABCFB076B /* Pods-iOS-LocalizationTests.debug.xcconfig */,
+				56FA06F9CCAB79ED88A4FD2A /* Pods-iOS-LocalizationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E63940EF545B43CA94145AC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				273F1AEA51F27756A13F8C62 /* Pods_iOS_Localization.framework */,
+				5466709B770A4228EF57AE5C /* Pods_iOS_Localization_iOS_LocalizationUITests.framework */,
+				EF494F53C0D181A4CCE546DA /* Pods_iOS_LocalizationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24B4479B26FAE8CD00B4291E /* iOS-Localization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B447C626FAE8D300B4291E /* Build configuration list for PBXNativeTarget "iOS-Localization" */;
+			buildPhases = (
+				A5848D92D08E71BF26D2F499 /* [CP] Check Pods Manifest.lock */,
+				24B4479826FAE8CD00B4291E /* Sources */,
+				24B4479926FAE8CD00B4291E /* Frameworks */,
+				24B4479A26FAE8CD00B4291E /* Resources */,
+				85F2AE6FAEC9A56B12373775 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Localization";
+			productName = "iOS-Localization";
+			productReference = 24B4479C26FAE8CD00B4291E /* iOS-Localization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24B447B126FAE8D200B4291E /* iOS-LocalizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B447C926FAE8D300B4291E /* Build configuration list for PBXNativeTarget "iOS-LocalizationTests" */;
+			buildPhases = (
+				0F3CC31B8B3CBD2F23EF910B /* [CP] Check Pods Manifest.lock */,
+				24B447AE26FAE8D200B4291E /* Sources */,
+				24B447AF26FAE8D200B4291E /* Frameworks */,
+				24B447B026FAE8D200B4291E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B447B426FAE8D200B4291E /* PBXTargetDependency */,
+			);
+			name = "iOS-LocalizationTests";
+			productName = "iOS-LocalizationTests";
+			productReference = 24B447B226FAE8D200B4291E /* iOS-LocalizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24B447BC26FAE8D300B4291E /* iOS-LocalizationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B447CC26FAE8D300B4291E /* Build configuration list for PBXNativeTarget "iOS-LocalizationUITests" */;
+			buildPhases = (
+				CADFC2B0F24419671692A9AB /* [CP] Check Pods Manifest.lock */,
+				24B447B926FAE8D300B4291E /* Sources */,
+				24B447BA26FAE8D300B4291E /* Frameworks */,
+				24B447BB26FAE8D300B4291E /* Resources */,
+				BFC56D3A2F5A26AFFD9D3B62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B447BF26FAE8D300B4291E /* PBXTargetDependency */,
+			);
+			name = "iOS-LocalizationUITests";
+			productName = "iOS-LocalizationUITests";
+			productReference = 24B447BD26FAE8D300B4291E /* iOS-LocalizationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B4479426FAE8CD00B4291E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					24B4479B26FAE8CD00B4291E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					24B447B126FAE8D200B4291E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 24B4479B26FAE8CD00B4291E;
+					};
+					24B447BC26FAE8D300B4291E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 24B4479B26FAE8CD00B4291E;
+					};
+				};
+			};
+			buildConfigurationList = 24B4479726FAE8CD00B4291E /* Build configuration list for PBXProject "iOS-Localization" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24B4479326FAE8CD00B4291E;
+			productRefGroup = 24B4479D26FAE8CD00B4291E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B4479B26FAE8CD00B4291E /* iOS-Localization */,
+				24B447B126FAE8D200B4291E /* iOS-LocalizationTests */,
+				24B447BC26FAE8D300B4291E /* iOS-LocalizationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24B4479A26FAE8CD00B4291E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B447AC26FAE8D200B4291E /* LaunchScreen.storyboard in Resources */,
+				24B447A926FAE8D200B4291E /* Assets.xcassets in Resources */,
+				24B447A726FAE8CD00B4291E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B447B026FAE8D200B4291E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B447BB26FAE8D300B4291E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F3CC31B8B3CBD2F23EF910B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-LocalizationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85F2AE6FAEC9A56B12373775 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Localization/Pods-iOS-Localization-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Localization/Pods-iOS-Localization-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-Localization/Pods-iOS-Localization-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5848D92D08E71BF26D2F499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-Localization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC56D3A2F5A26AFFD9D3B62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Localization-iOS-LocalizationUITests/Pods-iOS-Localization-iOS-LocalizationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Localization-iOS-LocalizationUITests/Pods-iOS-Localization-iOS-LocalizationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-Localization-iOS-LocalizationUITests/Pods-iOS-Localization-iOS-LocalizationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADFC2B0F24419671692A9AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-Localization-iOS-LocalizationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B4479826FAE8CD00B4291E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B447A426FAE8CD00B4291E /* ViewController.swift in Sources */,
+				24B447A026FAE8CD00B4291E /* AppDelegate.swift in Sources */,
+				24B447A226FAE8CD00B4291E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B447AE26FAE8D200B4291E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B447B726FAE8D200B4291E /* iOS_LocalizationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B447B926FAE8D300B4291E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B447C226FAE8D300B4291E /* iOS_LocalizationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24B447B426FAE8D200B4291E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24B4479B26FAE8CD00B4291E /* iOS-Localization */;
+			targetProxy = 24B447B326FAE8D200B4291E /* PBXContainerItemProxy */;
+		};
+		24B447BF26FAE8D300B4291E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24B4479B26FAE8CD00B4291E /* iOS-Localization */;
+			targetProxy = 24B447BE26FAE8D300B4291E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24B447A526FAE8CD00B4291E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B447A626FAE8CD00B4291E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24B447AA26FAE8D200B4291E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B447AB26FAE8D200B4291E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24B447C426FAE8D300B4291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24B447C526FAE8D300B4291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24B447C726FAE8D300B4291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9259E0A67665095E85A87E /* Pods-iOS-Localization.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-Localization/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rajDev.iOS-Localization";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24B447C826FAE8D300B4291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8449D83293C1626C974DF03F /* Pods-iOS-Localization.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-Localization/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rajDev.iOS-Localization";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24B447CA26FAE8D300B4291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3FF900DB0E8EAABCFB076B /* Pods-iOS-LocalizationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-LocalizationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rajDev.iOS-LocalizationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Localization.app/iOS-Localization";
+			};
+			name = Debug;
+		};
+		24B447CB26FAE8D300B4291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FA06F9CCAB79ED88A4FD2A /* Pods-iOS-LocalizationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-LocalizationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rajDev.iOS-LocalizationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Localization.app/iOS-Localization";
+			};
+			name = Release;
+		};
+		24B447CD26FAE8D300B4291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D072BC5D4D6D906DF1E44B /* Pods-iOS-Localization-iOS-LocalizationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-LocalizationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rajDev.iOS-LocalizationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Localization";
+			};
+			name = Debug;
+		};
+		24B447CE26FAE8D300B4291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37BB1CB8C3E4F4B9041856A /* Pods-iOS-Localization-iOS-LocalizationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-LocalizationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rajDev.iOS-LocalizationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Localization";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B4479726FAE8CD00B4291E /* Build configuration list for PBXProject "iOS-Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B447C426FAE8D300B4291E /* Debug */,
+				24B447C526FAE8D300B4291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B447C626FAE8D300B4291E /* Build configuration list for PBXNativeTarget "iOS-Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B447C726FAE8D300B4291E /* Debug */,
+				24B447C826FAE8D300B4291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B447C926FAE8D300B4291E /* Build configuration list for PBXNativeTarget "iOS-LocalizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B447CA26FAE8D300B4291E /* Debug */,
+				24B447CB26FAE8D300B4291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B447CC26FAE8D300B4291E /* Build configuration list for PBXNativeTarget "iOS-LocalizationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B447CD26FAE8D300B4291E /* Debug */,
+				24B447CE26FAE8D300B4291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B4479426FAE8CD00B4291E /* Project object */;
+}

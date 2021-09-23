@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  iOS-Localization
+
+  Created by Amsaraj Mariyappan on 23/9/21.
+  
+*/
+"Hello_world" = "Hello_world";
+"language_button_title" = "language_button_title";

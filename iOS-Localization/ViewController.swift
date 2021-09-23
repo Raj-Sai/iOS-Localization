@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     }
     
     func setupUI() {
-        welcomeLabel.text = "Hello_world".localize()
-        languageButton.setTitle("language_button_title".localize(), for: .normal)
+        welcomeLabel.text = L10n.helloWorld.localize()
+        languageButton.setTitle(L10n.languageButtonTitle.localize(), for: .normal)
     }
 
     @IBAction func languageButtonTapped(_ sender: Any) {

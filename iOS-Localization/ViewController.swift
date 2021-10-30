@@ -7,6 +7,10 @@
 
 import UIKit
 
+open class Test {
+    static let shared = L10n.self
+}
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var welcomeLabel: UILabel!

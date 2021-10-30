@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "iOS-Localization"
+  spec.name         = "iOSLocalization"
   spec.version      = "0.0.2"
   spec.summary      = "this lib we can use for the Localization."
 

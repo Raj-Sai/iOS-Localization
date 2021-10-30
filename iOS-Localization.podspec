@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "iOS-Localization"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of iOS-Localization."
+  spec.summary      = "this lib we can use for the Localization."
 
   spec.description  = <<-DESC
 This CocoaPods library helps you perform calculation.
@@ -26,6 +26,6 @@ This CocoaPods library helps you perform calculation.
 
   spec.source        = { :git => "https://github.com/Raj-Sai/iOS-Localization.git", :tag => "#{spec.version}" }
   spec.source_files  = "iOS-Localization/**/*.{h,m,swift}"
-
+	spec.dependency 'i18next'
 end
 

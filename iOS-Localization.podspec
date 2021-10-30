@@ -24,7 +24,7 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/Raj-Sai/iOS-Localization.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/Raj-Sai/iOS-Localization.git", :branch => "main" }
   spec.source_files  = "iOS-Localization/**/*.{h,m,swift}"
 	spec.dependency 'i18next'
 end

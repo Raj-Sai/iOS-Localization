@@ -10,7 +10,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "iOSLocalization"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "this lib we can use for the Localization."
 
   spec.description  = <<-DESC
@@ -24,7 +24,7 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/Raj-Sai/iOS-Localization.git", :branch => "main", :tag => "0.0.6" }
+  spec.source        = { :git => "https://github.com/Raj-Sai/iOS-Localization.git", :branch => "main", :tag => "0.0.7" }
   spec.source_files  = "iOS-Localization/**/*.{h,m,swift}"
 	spec.dependency 'i18next'
 end

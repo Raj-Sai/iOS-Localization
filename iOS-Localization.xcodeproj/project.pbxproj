@@ -405,7 +405,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "swiftgen strings -t structured-swift5 \"$PROJECT_DIR/iOS-Localization/Resources/en.lproj/Localizable.strings\" --output \"$PROJECT_DIR/iOS-Localization/Constants/Localized.swift\";\n";
+			shellScript = "swiftgen strings -t structured-swift5 \"$PROJECT_DIR/iOS-Localization/Resources/en.lproj/Localizable.strings\" --output \"$PROJECT_DIR/iOS-Localization/Constants/Localized.swift\" --param publicAccess;\n";
 		};
 		85F2AE6FAEC9A56B12373775 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;

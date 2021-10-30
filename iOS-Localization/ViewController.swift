@@ -8,7 +8,11 @@
 import UIKit
 
 open class Test {
-    static let shared = L10n.self
+    public static let shared = Test()
+    
+    public func localize(_ key: String) -> String {
+        return ""
+    }
 }
 
 class ViewController: UIViewController {
@@ -22,8 +26,8 @@ class ViewController: UIViewController {
     }
     
     func setupUI() {
-        welcomeLabel.text = L10n.helloWorld.localize()
-        languageButton.setTitle(L10n.languageButtonTitle.localize(), for: .normal)
+        //welcomeLabel.text = L10n.helloWorld.localize()
+       // languageButton.setTitle(L10n.languageButtonTitle.localize(), for: .normal)
     }
 
     @IBAction func languageButtonTapped(_ sender: Any) {

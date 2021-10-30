@@ -9,11 +9,11 @@ import Foundation
 
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
-internal enum L10n {
+public enum L10n {
   /// Hello_world
-  internal static let helloWorld = L10n.tr("Localizable", "Hello_world")
+  public static let helloWorld = L10n.tr("Localizable", "Hello_world")
   /// language_button_title
-  internal static let languageButtonTitle = L10n.tr("Localizable", "language_button_title")
+  public static let languageButtonTitle = L10n.tr("Localizable", "language_button_title")
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces
